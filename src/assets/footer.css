@@ -1,0 +1,22 @@
+footer {
+    height: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #000000;
+}
+
+footer a {
+    margin: 8px;
+}
+
+@media (max-width: 500px) {
+    footer {
+        height: 98px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        flex-direction: column;
+        padding-left: 16px;
+    }
+}
